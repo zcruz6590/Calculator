@@ -14,11 +14,11 @@ body {
 }
 
 .calculator {
-    background: #7fb1b3;
+    background: #33CCFF;
     padding: 25px;
     margin: 0;
     border: 1px solid #6fa8aa;
-    border-radius: 12px;
+    border-radius: 50px;
 }
 
 .calculator form input {
@@ -63,7 +63,7 @@ body {
     background-color: #ff9f0a;
 }
 .number {
-    background-color: #333333;
+    background-color: #8c8b8b;
     color: #fff;
 }
 
