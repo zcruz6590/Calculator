@@ -4,36 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
-    <style ></style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="calculator">
-        <div class="display"></div>
-        <div class="buttons">
-            <div class="top-functions">
-                <button class="clear">AC</button>
-                <button class="pos-neg">±</button>
-            </div>
-            <div class="operators">
-                <button class="division">÷</button>
-                <button class="multiplication">×</button>
-                <button class="subtraction">−</button>
-                <button class="addition">+</button>
-                <button class="equals">=</button>
-            </div>
-            <div class="numbers">
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button class="zero">0</button>
-                <button class="decimal">.</button>
-            </div>
+    <div class="container">
+        <div class="calculator">
+            <form>
+                <div class="screen">
+                    <input type="text" name="display">
+                </div>
+                <div class="first-row">
+                    <input type="button" value="AC">
+                    <input type="button" value="±">
+                    <input type="button" value="%">
+                    <input type="button" class="operator" value="÷">
+                </div>
+                <div class="sec-row">
+                    <input type="button" class="number" value="7">
+                    <input type="button" class="number" value="8">
+                    <input type="button" class="number" value="9">
+                    <input type="button" class="operator" value="×">
+                </div>
+                <div class="third-row">
+                    <input type="button" class="number" value="4">
+                    <input type="button" class="number" value="5">
+                    <input type="button" class="number" value="6">
+                    <input type="button" class="operator" value="-">
+                </div>
+                <div class="fourth-row">
+                    <input type="button" class="number" value="1">
+                    <input type="button" class="number" value="2">
+                    <input type="button" class="number"value="3">
+                    <input type="button" class="operator" value="+">
+                </div>
+                <div class="last-row">
+                    <input type="button" class="zero number" value="0">
+                    <input type="button" class="decimal number" value=".">
+                    <input type="button" class="equals operator" value="=">
+                </div>
+            </form>
         </div>
     </div>
 </body>
