@@ -17,7 +17,7 @@ body {
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px); /*make 4 columns for buttons*/
     grid-template-rows: minmax(120px, auto) repeat(5, 100px); /*make 5 rows for buttons*/
-    gap: 2px;
+    gap: 1.5px;
     
 }
 
