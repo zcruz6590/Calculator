@@ -17,6 +17,8 @@ body {
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px); /*make 4 columns for buttons*/
     grid-template-rows: minmax(120px, auto) repeat(5, 100px); /*make 5 rows for buttons*/
+    gap: 2px;
+    
 }
 
 .calcuator > button {
@@ -31,13 +33,21 @@ body {
     background-color: rgba(255, 255, 255, .9);
 }
 
+.operator:not(.modulus), .equals {
+    background-color: rgb(225, 151, 40);
+}
+
+.AC {
+    background-color: rgb(218, 51, 85);
+}
+
 .span-two {
     grid-column: span 2;
 }
 
 .output {
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    background-color: rgba(0, 0, 0, 0.631);
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -48,7 +58,7 @@ body {
 }
 
 .output .previous-operand {
-    color: #30526f;
+    color: #64a7f0;
     font-size: 1.5rem;
 }
 
